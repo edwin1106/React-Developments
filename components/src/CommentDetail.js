@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CommentDetail = ({autor,fecha,image}) => {
+const CommentDetail = ({author,date,image,text}) => {
     return(
     <div className="comment">
         <a href="/" className="avatar">
@@ -8,12 +8,12 @@ const CommentDetail = ({autor,fecha,image}) => {
             </a>
             <div className="content">
                 <a href="/" className="author">
-                    {autor}
+                    {author}
                 </a>
                 <div className="metadata">
-                <span className="date">{fecha}</span>
+                <span className="date">{date}</span>
                 </div>
-                <div className="text">Nice blog post!</div>
+                <div className="text">{text}</div>
             </div>
     </div>
     );
