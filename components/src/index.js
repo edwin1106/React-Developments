@@ -11,7 +11,7 @@ const App = () => {
                 <CommentDetail
                     author="Sam"
                     date="Today at 9:00Pm"
-                    image={faker.image.avatar()}
+                    image={faker.image.image()}
                     text="I like this!" />
             </ApprovalCard>
 
@@ -19,7 +19,7 @@ const App = () => {
                 <CommentDetail
                     author="Jack"
                     date="Yesterday at 2:00Pm"
-                    image={faker.image.avatar()}
+                    image={faker.image.image()}
                     text="Nice blog post!" />
             </ApprovalCard>
 
@@ -27,7 +27,7 @@ const App = () => {
                 <CommentDetail
                     auhtor="Carl"
                     date="Today at 11:00Am"
-                    image={faker.image.avatar()}
+                    image={faker.image.image()}
                     text="This is great!" />
             </ApprovalCard>
         </div>
