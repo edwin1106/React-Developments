@@ -12,9 +12,9 @@ const App = () => {
                     author="Sam"
                     date="Today at 9:00Pm"
                     image={faker.image.image()}
-                    text="I like this!" />
+                    text="I like this!">
+                        </CommentDetail>
             </ApprovalCard>
-
             <ApprovalCard>
                 <CommentDetail
                     author="Jack"
