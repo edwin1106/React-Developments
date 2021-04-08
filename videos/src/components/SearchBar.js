@@ -10,7 +10,6 @@ onFormSubmit = e =>{
 }
 
     render(){
-        console.log(this.state.term)
         return(
             <div className="search-bar ui segment">
                 <form onSubmit={this.onFormSubmit} className="ui form">
