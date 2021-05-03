@@ -27,7 +27,7 @@ class App extends React.Component{
     render(){
         return (
             <div className="ui container">
-                <SearchBar onFormSubmit={this.onTermSubmit}/>
+                <SearchBar onFormSubmited={this.onTermSubmit}/>
                 <div className="ui grid">
                     <div className="ui row">
                         <div className="eleven wide column">

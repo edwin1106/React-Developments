@@ -6,7 +6,7 @@ state = { term: ''}
 onFormSubmit = e =>{
     e.preventDefault();
 
-    this.props.onFormSubmit(this.state.term)
+    this.props.onFormSubmited(this.state.term)
 }
 
     render(){
